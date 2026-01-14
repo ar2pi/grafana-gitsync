@@ -24,7 +24,20 @@
     "editable": true,
     "fiscalYearStartMonth": 0,
     "graphTooltip": 0,
-    "links": [],
+    "links": [
+      {
+        "asDropdown": false,
+        "icon": "external link",
+        "includeVars": false,
+        "keepTime": false,
+        "tags": [],
+        "targetBlank": true,
+        "title": "Source (GitHub)",
+        "tooltip": "View source file in repository",
+        "type": "link",
+        "url": "https://github.com/ar2pi/grafana-gitsync/blob/main/grafana/new-dashboard-2025-12-23-s4eni.json"
+      }
+    ],
     "panels": [
       {
         "datasource": {
@@ -107,7 +120,7 @@
             "sort": "none"
           }
         },
-        "pluginVersion": "12.4.0-20160616057",
+        "pluginVersion": "12.4.0-20781422371.patch2",
         "targets": [
           {
             "datasource": {
@@ -121,7 +134,7 @@
             "refId": "A"
           }
         ],
-        "title": "Test",
+        "title": "Test 2",
         "type": "timeseries"
       }
     ],
