@@ -722,6 +722,23 @@
                               {
                                 "kind": "AutoGridLayoutItem",
                                 "spec": {
+                                  "conditionalRendering": {
+                                    "kind": "ConditionalRenderingGroup",
+                                    "spec": {
+                                      "condition": "and",
+                                      "items": [
+                                        {
+                                          "kind": "ConditionalRenderingVariable",
+                                          "spec": {
+                                            "operator": "equals",
+                                            "value": "false",
+                                            "variable": "show_gauge"
+                                          }
+                                        }
+                                      ],
+                                      "visibility": "hide"
+                                    }
+                                  },
                                   "element": {
                                     "kind": "ElementReference",
                                     "name": "panel-6"
