@@ -801,6 +801,25 @@
       "to": "now"
     },
     "title": "New dashboard",
-    "variables": []
+    "variables": [
+      {
+        "kind": "CustomVariable",
+        "spec": {
+          "allowCustomValue": true,
+          "current": {
+            "text": "true",
+            "value": "true"
+          },
+          "hide": "dontHide",
+          "includeAll": false,
+          "multi": false,
+          "name": "show_gauge",
+          "options": [],
+          "query": "true,false",
+          "skipUrlSync": false,
+          "valuesFormat": "csv"
+        }
+      }
+    ]
   }
 }
