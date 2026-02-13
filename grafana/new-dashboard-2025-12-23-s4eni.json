@@ -64,7 +64,7 @@
           "description": "",
           "id": 1,
           "links": [],
-          "title": "Test 3",
+          "title": "Test 4",
           "vizConfig": {
             "group": "timeseries",
             "kind": "VizConfig",
