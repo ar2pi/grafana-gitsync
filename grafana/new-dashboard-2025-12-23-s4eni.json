@@ -780,6 +780,21 @@
                     {
                       "kind": "AutoGridLayoutItem",
                       "spec": {
+                        "conditionalRendering": {
+                          "kind": "ConditionalRenderingGroup",
+                          "spec": {
+                            "condition": "and",
+                            "items": [
+                              {
+                                "kind": "ConditionalRenderingData",
+                                "spec": {
+                                  "value": false
+                                }
+                              }
+                            ],
+                            "visibility": "hide"
+                          }
+                        },
                         "element": {
                           "kind": "ElementReference",
                           "name": "panel-3"
@@ -863,8 +878,18 @@
         "spec": {
           "allowCustomValue": true,
           "current": {
-            "text": "1",
-            "value": "1"
+            "text": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "value": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ]
           },
           "hide": "dontHide",
           "includeAll": true,
@@ -872,6 +897,24 @@
           "name": "repeat",
           "options": [],
           "query": "1,2,3,4",
+          "skipUrlSync": false,
+          "valuesFormat": "csv"
+        }
+      },
+      {
+        "kind": "CustomVariable",
+        "spec": {
+          "allowCustomValue": true,
+          "current": {
+            "text": "true",
+            "value": "true"
+          },
+          "hide": "dontHide",
+          "includeAll": false,
+          "multi": false,
+          "name": "show_repeated_panel",
+          "options": [],
+          "query": "true,false",
           "skipUrlSync": false,
           "valuesFormat": "csv"
         }
