@@ -651,14 +651,13 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "grafanacloud-usage"
+                        "name": "aeq1bpsr2483ke"
                       },
-                      "group": "prometheus",
+                      "group": "grafana-testdata-datasource",
                       "kind": "DataQuery",
                       "spec": {
-                        "expr": "",
-                        "instant": false,
-                        "range": true
+                        "scenarioId": "random_walk",
+                        "seriesCount": 0
                       },
                       "version": "v0"
                     },
