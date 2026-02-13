@@ -853,6 +853,24 @@
           "skipUrlSync": false,
           "valuesFormat": "csv"
         }
+      },
+      {
+        "kind": "CustomVariable",
+        "spec": {
+          "allowCustomValue": true,
+          "current": {
+            "text": "1",
+            "value": "1"
+          },
+          "hide": "dontHide",
+          "includeAll": true,
+          "multi": true,
+          "name": "repeat",
+          "options": [],
+          "query": "1,2,3,4",
+          "skipUrlSync": false,
+          "valuesFormat": "csv"
+        }
       }
     ]
   }
