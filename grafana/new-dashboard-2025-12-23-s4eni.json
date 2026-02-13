@@ -43,15 +43,13 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "grafanacloud-prom"
+                        "name": "aeq1bpsr2483ke"
                       },
-                      "group": "prometheus",
+                      "group": "grafana-testdata-datasource",
                       "kind": "DataQuery",
                       "spec": {
-                        "editorMode": "code",
-                        "expr": "up{}",
-                        "legendFormat": "__auto",
-                        "range": true
+                        "scenarioId": "random_walk",
+                        "seriesCount": 1
                       },
                       "version": "v0"
                     },
