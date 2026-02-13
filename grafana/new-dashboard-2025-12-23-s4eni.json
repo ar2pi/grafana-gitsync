@@ -920,6 +920,21 @@
                     {
                       "kind": "AutoGridLayoutItem",
                       "spec": {
+                        "conditionalRendering": {
+                          "kind": "ConditionalRenderingGroup",
+                          "spec": {
+                            "condition": "and",
+                            "items": [
+                              {
+                                "kind": "ConditionalRenderingData",
+                                "spec": {
+                                  "value": false
+                                }
+                              }
+                            ],
+                            "visibility": "hide"
+                          }
+                        },
                         "element": {
                           "kind": "ElementReference",
                           "name": "panel-8"
@@ -1004,10 +1019,16 @@
           "allowCustomValue": true,
           "current": {
             "text": [
-              "1"
+              "1",
+              "2",
+              "3",
+              "4"
             ],
             "value": [
-              "1"
+              "1",
+              "2",
+              "3",
+              "4"
             ]
           },
           "hide": "dontHide",
