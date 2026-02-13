@@ -783,6 +783,10 @@
                         "element": {
                           "kind": "ElementReference",
                           "name": "panel-3"
+                        },
+                        "repeat": {
+                          "mode": "variable",
+                          "value": "repeat"
                         }
                       }
                     }
