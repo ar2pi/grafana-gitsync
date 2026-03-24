@@ -64,7 +64,7 @@
           "description": "",
           "id": 1,
           "links": [],
-          "title": "Test 4",
+          "title": "Test 1212",
           "vizConfig": {
             "group": "timeseries",
             "kind": "VizConfig",
@@ -125,6 +125,10 @@
                 "overrides": []
               },
               "options": {
+                "annotations": {
+                  "clustering": -1,
+                  "multiLane": false
+                },
                 "legend": {
                   "calcs": [],
                   "displayMode": "list",
@@ -138,7 +142,7 @@
                 }
               }
             },
-            "version": "12.4.0-21914300000"
+            "version": "13.0.0-23069273608.patch3"
           }
         }
       },
@@ -237,6 +241,10 @@
                 "overrides": []
               },
               "options": {
+                "annotations": {
+                  "clustering": -1,
+                  "multiLane": false
+                },
                 "legend": {
                   "calcs": [],
                   "displayMode": "list",
@@ -250,7 +258,7 @@
                 }
               }
             },
-            "version": "12.4.0-21914300000"
+            "version": "13.0.0-23069273608.patch3"
           }
         }
       },
@@ -349,6 +357,10 @@
                 "overrides": []
               },
               "options": {
+                "annotations": {
+                  "clustering": -1,
+                  "multiLane": false
+                },
                 "legend": {
                   "calcs": [],
                   "displayMode": "list",
@@ -362,7 +374,7 @@
                 }
               }
             },
-            "version": "12.4.0-21914300000"
+            "version": "13.0.0-23069273608.patch3"
           }
         }
       },
@@ -461,6 +473,10 @@
                 "overrides": []
               },
               "options": {
+                "annotations": {
+                  "clustering": -1,
+                  "multiLane": false
+                },
                 "legend": {
                   "calcs": [],
                   "displayMode": "list",
@@ -474,7 +490,7 @@
                 }
               }
             },
-            "version": "12.4.0-21914300000"
+            "version": "13.0.0-23069273608.patch3"
           }
         }
       },
@@ -733,6 +749,10 @@
                 "overrides": []
               },
               "options": {
+                "annotations": {
+                  "clustering": -1,
+                  "multiLane": false
+                },
                 "legend": {
                   "calcs": [],
                   "displayMode": "list",
@@ -746,7 +766,7 @@
                 }
               }
             },
-            "version": "12.4.0-21914300000"
+            "version": "13.0.0-23069273608.patch3"
           }
         }
       }
