@@ -142,7 +142,7 @@
                 }
               }
             },
-            "version": "13.0.0-23069273608.patch3"
+            "version": "13.0.0-23429090056.patch2"
           }
         }
       },
@@ -258,7 +258,7 @@
                 }
               }
             },
-            "version": "13.0.0-23069273608.patch3"
+            "version": "13.0.0-23429090056.patch2"
           }
         }
       },
@@ -374,7 +374,7 @@
                 }
               }
             },
-            "version": "13.0.0-23069273608.patch3"
+            "version": "13.0.0-23429090056.patch2"
           }
         }
       },
@@ -490,7 +490,7 @@
                 }
               }
             },
-            "version": "13.0.0-23069273608.patch3"
+            "version": "13.0.0-23429090056.patch2"
           }
         }
       },
@@ -555,6 +555,14 @@
                 "overrides": []
               },
               "options": {
+                "barShape": "flat",
+                "barWidthFactor": 0.5,
+                "effects": {
+                  "barGlow": false,
+                  "centerGlow": false,
+                  "gradient": false
+                },
+                "endpointMarker": "point",
                 "minVizHeight": 75,
                 "minVizWidth": 75,
                 "orientation": "auto",
@@ -565,12 +573,17 @@
                   "fields": "",
                   "values": false
                 },
+                "segmentCount": 1,
+                "segmentSpacing": 0.3,
+                "shape": "gauge",
                 "showThresholdLabels": false,
                 "showThresholdMarkers": true,
-                "sizing": "auto"
+                "sizing": "auto",
+                "sparkline": false,
+                "textMode": "auto"
               }
             },
-            "version": "12.4.0-21914300000"
+            "version": "13.0.0-23429090056.patch2"
           }
         }
       },
@@ -635,6 +648,14 @@
                 "overrides": []
               },
               "options": {
+                "barShape": "flat",
+                "barWidthFactor": 0.5,
+                "effects": {
+                  "barGlow": false,
+                  "centerGlow": false,
+                  "gradient": false
+                },
+                "endpointMarker": "point",
                 "minVizHeight": 75,
                 "minVizWidth": 75,
                 "orientation": "auto",
@@ -645,12 +666,17 @@
                   "fields": "",
                   "values": false
                 },
+                "segmentCount": 1,
+                "segmentSpacing": 0.3,
+                "shape": "gauge",
                 "showThresholdLabels": false,
                 "showThresholdMarkers": true,
-                "sizing": "auto"
+                "sizing": "auto",
+                "sparkline": false,
+                "textMode": "auto"
               }
             },
-            "version": "12.4.0-21914300000"
+            "version": "13.0.0-23429090056.patch2"
           }
         }
       },
@@ -766,7 +792,7 @@
                 }
               }
             },
-            "version": "13.0.0-23069273608.patch3"
+            "version": "13.0.0-23429090056.patch2"
           }
         }
       }
@@ -1013,7 +1039,7 @@
       "timezone": "browser",
       "to": "now"
     },
-    "title": "New dashboard",
+    "title": "Dynamic dashboards demo",
     "variables": [
       {
         "kind": "CustomVariable",
@@ -1039,16 +1065,10 @@
           "allowCustomValue": true,
           "current": {
             "text": [
-              "1",
-              "2",
-              "3",
-              "4"
+              "1"
             ],
             "value": [
-              "1",
-              "2",
-              "3",
-              "4"
+              "1"
             ]
           },
           "hide": "dontHide",
